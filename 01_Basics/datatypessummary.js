@@ -17,11 +17,11 @@ export const temp = null;
 const id = Symbol('123')
 const anotherid = Symbol('123')
 
-console.log(id === anotherid);
+// console.log(id === anotherid);
 
 const bignumber = 3452568824722426
 
-console.log(typeof bignumber);
+// console.log(typeof bignumber);
 
 
 
@@ -43,3 +43,33 @@ const myfunction = function(){
 
 console.log(typeof myfunction);
 console.log(typeof null)
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive datatypes) heap (non-premitive datatypes)
+
+let myname = "mdfaisalhashmi"
+
+let mynewname = myname
+mynewname = "mdfaisalhashmi22"
+
+// console.log(mynewname)
+
+let userone = {
+    email: "mdfaisal@gmail.com",
+    upi: "upi@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "mdfaisalhashmi22@gmail.com"
+
+// let usertwo = {
+//     email: "mdfaisalhashmi22@gmail.com",
+//     upi:"upi123@ybl"
+// }
+
+console.log(userone)
+console.log(usertwo);
+
+
